@@ -1,5 +1,5 @@
 <?php
-  include 'main.html';
+  include 'navbar.html';
 
 ?>
 
@@ -118,3 +118,8 @@
     </div>
 
   <!-- end conten 2 -->
+
+  <?php
+  include 'footer.html';
+
+?>
