@@ -37,20 +37,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item <?php if($page == "Home") echo "class='active'";?>">
+            <a class="nav-link" aria-current="page" href="home.php">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profil</a>
+          <li class="nav-item <?php if($page == "Profil") echo "class='active'";?>">
+            <a class="nav-link" href="profil.php">Profil</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Galeri</a>
+          <li class="nav-item <?php if($page == "Galeri") echo "class='active'";?>">
+            <a class="nav-link" href="galleries.php">Galeri</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Jadwal</a>
+          <li class="nav-item <?php if($page == "jadwal") echo "class='active'";?>">
+            <a class="nav-link" href="jadwal.php">Jadwal</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Visi & Misi</a>
+          <li class="nav-item <?php if($page == "Visi") echo "class='active'";?>">
+            <a class="nav-link" href="visi.php">Visi & Misi</a>
           </li>
         </ul>
         <form class="d-flex">
