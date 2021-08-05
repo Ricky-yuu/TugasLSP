@@ -1,7 +1,27 @@
-.blok{
-    display: inline-block;
+body {
+  scroll-behavior: smooth;
 }
 
-i{
-    margin-left: 20px;
+.blok {
+  display: inline-block;
+}
+
+i {
+  margin-left: 20px;
+}
+
+/* li{
+    list-style: none;
+} */
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
 }
