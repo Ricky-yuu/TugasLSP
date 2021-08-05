@@ -117,6 +117,8 @@
       </div>
     </div>
 
+</div>
+
   <!-- end conten 2 -->
 
   <?php
